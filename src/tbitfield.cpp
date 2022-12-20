@@ -153,10 +153,11 @@ TBitField TBitField::operator|(const TBitField& bf) // операция "или"
 
 TBitField TBitField::operator&(const TBitField& bf) // операция "и"
 {
-	TBitField data(*this);
+	TBitField data(this->BitLen);
 	if (this->BitLen < bf.BitLen)
 	{
-		data = bf;
+		TBitField tmp(bf.BitLen);
+		data = tmp;
 	}
 	for (size_t i = 0; i < min(MemLen, bf.MemLen); i++)
 	{
@@ -176,7 +177,6 @@ TBitField TBitField::operator~(void) // отрицание
 	{
 		data.pMem[MemLen - 1] &= ~((~(TELEM)0) << (this->BitLen % (sizeof(TELEM) * 8)));
 	}
-	cout << data;
 	return data;
 }
 

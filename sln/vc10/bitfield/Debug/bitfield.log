@@ -1,13 +1,11 @@
 ﻿cl : командная строка warning D9035: использование параметра "Gm" нежелательно, он будет удален в следующих выпусках
   tset.cpp
-C:\Users\сонек\mp2-lab1-set\src\tset.cpp(150,17): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\сонек\mp2-lab1-set\src\tset.cpp(158,26): warning C4018: <: несоответствие типов со знаком и без знака
   tbitfield.cpp
 C:\Users\сонек\mp2-lab1-set\src\tbitfield.cpp(19,39): warning C4018: <: несоответствие типов со знаком и без знака
 C:\Users\сонек\mp2-lab1-set\src\tbitfield.cpp(117,24): warning C4018: <: несоответствие типов со знаком и без знака
 C:\Users\сонек\mp2-lab1-set\src\tbitfield.cpp(147,23): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\сонек\mp2-lab1-set\src\tbitfield.cpp(161,23): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\сонек\mp2-lab1-set\src\tbitfield.cpp(171,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\сонек\mp2-lab1-set\src\tbitfield.cpp(162,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\сонек\mp2-lab1-set\src\tbitfield.cpp(172,23): warning C4018: <: несоответствие типов со знаком и без знака
 C:\Users\сонек\mp2-lab1-set\src\tbitfield.cpp(188,23): warning C4018: <: несоответствие типов со знаком и без знака
 C:\Users\сонек\mp2-lab1-set\src\tbitfield.cpp(201,23): warning C4018: <: несоответствие типов со знаком и без знака
   Создание кода...
